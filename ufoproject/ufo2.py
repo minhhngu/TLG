@@ -22,7 +22,6 @@ data_map = gpd.read_file('states/tl_2020_us_state.shp')
 data_state = data['state/province'].value_counts().rename_axis('states').reset_index(name='counts')
 
 # states codes in both dataframes are uppercase, so data_state needs to be set to uppercase
-# map and sightings count will not be produced otherwise
 data_state['states'] = data_state['states'].str.upper()
 
 # merges dataframe with shapefile
@@ -54,7 +53,8 @@ def main():
     ax.legend(bbox_to_anchor=(1.28, 1.27), prop={'size': 8}, title="Number of Sightings")
     ax.set(title="UAP Sightings Heatmap")
 
+    plt.show()
 
-if __name__ != "__main__":
+
+if __name__ == "__main__":
     main()
-plt.show()
