@@ -1,5 +1,5 @@
 <h1>UFO/UAP Heatmap</h1>
-This project uses a UFO sightings dataframe and produces a heatmap for corresponding states in the US.
+This project uses a UFO sightings dataframe and produces a choropleth map for corresponding states in the US.
 
 <h2>Inspiration</h2>
 I chose to do this project because I became interested in the recently available UFO/UAP reports from the Pentagon and defense intelligence officials.
