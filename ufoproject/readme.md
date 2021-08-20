@@ -1,4 +1,4 @@
-<h1>UFO/UAP Heatmap</h1>
+<h1>UFO/UAP Choropleth Map</h1>
 This project uses a UFO sightings dataframe and produces a choropleth map for corresponding states in the US.
 
 <h2>Inspiration</h2>
