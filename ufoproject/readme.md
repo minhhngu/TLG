@@ -10,5 +10,5 @@ In order to accomplish this project, I had to use the following pythonic skills:
 <ul>
   <li>plotting</li>
   <li>geopandas</li>
-  <li>APIs</li>
+  <li>dataframes</li>
 </ul>
