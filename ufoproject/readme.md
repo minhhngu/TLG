@@ -9,7 +9,6 @@ In order to accomplish this project, I had to use the following pythonic skills:
 
 <ul>
   <li>plotting</li>
-  <li>functions</li>
-  <li>classes</li>
-  <li>if/elif/else logic</li>
+  <li>geopandas</li>
+  <li>APIs</li>
 </ul>
